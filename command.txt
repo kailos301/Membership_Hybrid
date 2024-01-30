@@ -1,0 +1,63 @@
+ssh root@79.143.95.63
+
+79.143.95.63
+
+10.10.17.94
+8282
+
+jZN3Z1TgKPEgdnJA
+
+/srv/152-erp.topledspain.com/odoo/sources/odoo/odoo/addons/react_native/
+
+cd /srv/152-erp.topledspain.com && docker-compose down && docker-compose up -d
+
+scp main.py root@79.143.95.63:/srv/152-erp.topledspain.com/odoo/sources/odoo/odoo/addons/react_native/controllers
+
+the expected format is 'CC##' (CC=Country Code, ##=VAT Number)
+-----------------contact field ------------
+
+{'message_is_follower': False, 'message_follower_ids': mail.followers(), 'message_partner_ids': res.partner(),
+'message_ids': mail.message(1792, 1789, 1788), 'has_message': True, 'message_needaction': False,
+'message_needaction_counter': 0, 'message_has_error': False, 'message_has_error_counter': 0, 'message_attachment_count':
+0, 'message_main_attachment_id': ir.attachment(), 'website_message_ids': mail.message(), 'message_has_sms_error': False,
+'email_normalized': '793100371@qq.com', 'is_blacklisted': False, 'message_bounce': 0, 'activity_ids': mail.activity(),
+'activity_state': False, 'activity_user_id': res.users(), 'activity_type_id': mail.activity.type(),
+'activity_type_icon': False, 'activity_date_deadline': False, 'my_activity_date_deadline': False, 'activity_summary':
+False, 'activity_exception_decoration': False, 'activity_exception_icon': False, 'image_1920':
+'name': 'admin', 'display_name': 'admin', 'date': False, 'title': res.partner.title(), 'parent_id': res.partner(),
+'parent_name': False, 'child_ids': res.partner(), 'ref': False, 'lang': 'es_ES', 'active_lang_count': 3, 'tz':
+'Atlantic/Canary', 'tz_offset': '+0100', 'user_id': res.users(), 'vat': 'x7332267m', 'same_vat_partner_id':
+res.partner(), 'same_company_registry_partner_id': res.partner(), 'company_registry': False, 'bank_ids':
+res.partner.bank(), 'website': False, 'comment': False, 'category_id': res.partner.category(), 'active': True,
+'employee': False, 'function': False, 'type': 'contact', 'street': 'mesas y lopez n77', 'street2': False, 'zip':
+'35010', 'city': 'las palmas', 'state_id': res.country.state(444,), 'country_id': res.country(68,), 'country_code':
+'ES', 'partner_latitude': 0.0, 'partner_longitude': 0.0, 'email': '793100371@qq.com', 'email_formatted': '"admin"
+<793100371@qq.com>', 'phone': '636666659', 'mobile': False, 'is_company': False, 'is_public': False, 'industry_id':
+	res.partner.industry(), 'company_type': 'person', 'company_id': res.company(), 'color': 0, 'user_ids':
+	res.users(8,), 'partner_share': True, 'contact_address': 'mesas y lopez n77\n\n35010 las palmas (Las
+	Palmas)\nEspaña', 'commercial_partner_id': res.partner(10,), 'commercial_company_name': False, 'company_name':
+	False, 'barcode': '042000000000001', 'self': res.partner(10,), 'id': 10, '__last_update': datetime.datetime(2023, 9,
+	17, 2, 49, 7, 808849), 'create_uid': res.users(4,), 'create_date': datetime.datetime(2023, 9, 13, 13, 28, 26,
+	705220), 'write_uid': res.users(2,), 'write_date': datetime.datetime(2023, 9, 17, 2, 49, 7, 808849), 'im_status':
+	'offline', 'channel_ids': mail.channel(), 'signup_token': False, 'signup_type': False, 'signup_expiration': False,
+	'signup_valid': False, 'signup_url':
+	'https://erp.topledspain.com/web/login?db=topledspain&login=793100371%40qq.com', 'employee_ids': hr.employee(),
+	'employees_count': 0, 'property_product_pricelist': product.pricelist(1,), 'team_id': crm.team(), 'partner_gid': 0,
+	'additional_info': False, 'phone_sanitized': '636666659', 'phone_sanitized_blacklisted': False, 'phone_blacklisted':
+	False, 'mobile_blacklisted': False, 'phone_mobile_search': False, 'payment_token_ids': payment.token(),
+	'payment_token_count': 0, 'credit': 0.0, 'credit_limit': 0.0, 'use_partner_credit_limit': False,
+	'show_credit_limit': False, 'debit': 0.0, 'debit_limit': 0.0, 'total_invoiced': 0.0, 'currency_id':
+	res.currency(1,), 'journal_item_count': 0, 'property_account_payable_id': account.account(188,),
+	'property_account_receivable_id': account.account(193,), 'property_account_position_id': account.fiscal.position(),
+	'property_payment_term_id': account.payment.term(), 'property_supplier_payment_term_id': account.payment.term(),
+	'ref_company_ids': res.company(), 'has_unreconciled_entries': False, 'last_time_entries_checked': False,
+	'invoice_ids': account.move(), 'contract_ids': account.analytic.account(), 'bank_account_count': 0, 'trust':
+	'normal', 'invoice_warn': 'no-message', 'invoice_warn_msg': False, 'supplier_rank': 0, 'customer_rank': 0,
+	'duplicated_bank_account_partners_count': 0, 'property_stock_customer': stock.location(5,),
+	'property_stock_supplier': stock.location(4,), 'picking_warn': 'no-message', 'picking_warn_msg': False,
+	'vies_failed_message': False, 'property_purchase_currency_id': res.currency(), 'purchase_order_count': 0,
+	'supplier_invoice_count': 0, 'purchase_warn': 'no-message', 'purchase_warn_msg': False, 'receipt_reminder_email':
+	False, 'reminder_date_before_receipt': 1, 'pos_order_count': 2, 'pos_order_ids': pos.order(13, 12),
+	'purchase_line_ids': purchase.order.line(), 'on_time_rate': -1.0, 'sale_order_count': 0, 'sale_order_ids':
+	sale.order(), 'sale_warn': 'no-message', 'sale_warn_msg': False, 'account_tax_id': account.tax(), 'discount_rate':
+	0.0}

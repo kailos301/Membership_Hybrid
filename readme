@@ -1,0 +1,3 @@
+eas build -p android --profile preview 
+
+adb logcat *:S ReactNative:V ReactNativeJS:Vy
